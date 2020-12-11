@@ -3,7 +3,63 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://okitouni.github.io/publication-type/3/</loc>
+    <lastmod>2020-08-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://okitouni.github.io/authors/</loc>
+    <lastmod>2020-08-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://okitouni.github.io/author/benjamin-nachman/</loc>
+    <lastmod>2020-08-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://okitouni.github.io/author/constantin-weisser/</loc>
+    <lastmod>2020-08-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://okitouni.github.io/publication/mode/</loc>
+    <lastmod>2020-08-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://okitouni.github.io/tag/deep-learning/</loc>
+    <lastmod>2020-08-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://okitouni.github.io/author/mike-williams/</loc>
+    <lastmod>2020-08-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://okitouni.github.io/</loc>
+    <lastmod>2020-08-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://okitouni.github.io/author/ouail-kitouni/</loc>
+    <lastmod>2020-08-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://okitouni.github.io/publication_types/</loc>
+    <lastmod>2020-08-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://okitouni.github.io/publication/</loc>
+    <lastmod>2020-08-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://okitouni.github.io/tags/</loc>
+    <lastmod>2020-08-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -11,31 +67,11 @@
   </url>
   
   <url>
-    <loc>https://okitouni.github.io/</loc>
-  </url>
-  
-  <url>
-    <loc>https://okitouni.github.io/author/ouail-kitouni/</loc>
-  </url>
-  
-  <url>
     <loc>https://okitouni.github.io/post/</loc>
   </url>
   
   <url>
-    <loc>https://okitouni.github.io/publication_types/</loc>
-  </url>
-  
-  <url>
-    <loc>https://okitouni.github.io/publication/</loc>
-  </url>
-  
-  <url>
     <loc>https://okitouni.github.io/talk/</loc>
-  </url>
-  
-  <url>
-    <loc>https://okitouni.github.io/tags/</loc>
   </url>
   
 </urlset>
