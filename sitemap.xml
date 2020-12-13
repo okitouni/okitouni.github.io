@@ -3,12 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://okitouni.github.io/publication-type/2/</loc>
+    <lastmod>2020-08-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://okitouni.github.io/publication-type/3/</loc>
     <lastmod>2020-08-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://okitouni.github.io/authors/</loc>
+    <lastmod>2020-08-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://okitouni.github.io/random/bell/</loc>
     <lastmod>2020-08-07T00:00:00+00:00</lastmod>
   </url>
   
@@ -54,6 +64,16 @@
   
   <url>
     <loc>https://okitouni.github.io/publication/</loc>
+    <lastmod>2020-08-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://okitouni.github.io/random/</loc>
+    <lastmod>2020-08-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://okitouni.github.io/tag/quantum-mechanics/</loc>
     <lastmod>2020-08-07T00:00:00+00:00</lastmod>
   </url>
   
