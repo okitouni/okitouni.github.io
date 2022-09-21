@@ -1,8 +1,8 @@
 ---
 title: "Towards Understanding Grokking: An Effective Theory of Representation Learning" 
 authors:
-- admin
 - Ziming Liu
+- admin
 - Eric Michaud
 - Niklas Nolte
 - Mike Williams
