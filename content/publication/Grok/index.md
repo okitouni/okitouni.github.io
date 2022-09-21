@@ -3,8 +3,8 @@ title: "Towards Understanding Grokking: An Effective Theory of Representation Le
 authors:
 - Ziming Liu
 - admin
-- Eric Michaud
 - Niklas Nolte
+- Eric Michaud
 - Mike Williams
 - Max Tegmark
 
