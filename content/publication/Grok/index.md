@@ -51,7 +51,7 @@ image:
   caption: 'Visualization of the first two principal components of the learned input embeddings at
 different training stages of a transformer learning modular addition. We observe that generalization
 coincides with the emergence of structure in the embeddings.'
-  focal_point: ""
+  focal_point: "Right"
   preview_only: false
 
 # Associated Projects (optional).

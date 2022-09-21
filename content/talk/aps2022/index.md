@@ -1,7 +1,7 @@
 ---
 title: Robust and Monotonic Neural Networks
 event: American Physical Society April Meeting 202
-event_url: https://example.org
+# event_url: https://example.org
 
 location: New York Marriott Marquis
 address:
