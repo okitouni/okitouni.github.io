@@ -5,7 +5,7 @@ authors:
 - Niklas Nolte
 - Mike Williams
 
-date: "2020-08-07T00:00:00Z"
+date: "2021-08-07T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -45,7 +45,10 @@ url_slides: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: ''
+  caption: 'Training monotonic and unconstrained models using four realizations (purple data points) of toy data which is assumed to be monotonic from domain knowledge. 
+    The shaded regions represent the (top) extrapolation or (bottom) interpolation regions of interest, where training data are absent. 
+    The unconstrained models exhibit overfitting of the noise and non-monotonic behavior, and when extrapolating or interpolating into regions where training data were absent, these models exhibit highly undesirable and unpredictable behavior.    
+    Conversely, the monotonic Lipschitz models always produce a monotonic function, even in scenarios where the noise is strongly suggestive of non-monotonic behavior.  '
   focal_point: ""
   preview_only: false
 
