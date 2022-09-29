@@ -27,6 +27,7 @@ projects: []
 ---
 
 ## Animations
-te
-The example below is an animation of the first Figure in {{< relref "/publication/grok" >}}
+
+The example below is an animation of the first Figure in {{< relref "/publication/Grok" >}}
+[A publication]({{< relref "/publication/Grok" >}})
 {{< video src="modular-addition59-deep_pca12_fixed.mp4" controls="yes" >}}
