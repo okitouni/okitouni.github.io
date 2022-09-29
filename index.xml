@@ -22,10 +22,11 @@ We visualize the first two principal components of the embeddings of a transform
 &lt;video controls >
 &lt;source src="modular-addition59-deep_pca12.mp4" type="video/mp4">
 &lt;/video>
-What is more intriguing is that this &amp;ldquo;perfect&amp;rdquo; representation actually exists very early (up to local ordering of embeddings). In the animation below, the axes are fixed to the first two principal components &lt;strong>at the end of training&lt;/strong>. This seems to suggest that the network picks a good representation at initialization and prunes away the noise throughout training. As one might expect, this &amp;ldquo;lottery ticket&amp;rdquo; found at initialization gets better (&lt;em>i.e.&lt;/em>, closer to the perfect representation) the wider one makes the model dimension.
+What is more intriguing is that this &amp;ldquo;perfect&amp;rdquo; representation actually exists very early (up to local ordering of embeddings). In the animation below, the axes are fixed to the first two principal components &lt;strong>at the end of training&lt;/strong>. This seems to suggest that the network picks a good representation at initialization and prunes away the noise throughout training. As one might expect, this &amp;ldquo;lottery ticket&amp;rdquo; found at initialization gets better (&lt;em>i.e.&lt;/em>, closer to the perfect representation) the wider the model dimension.
 &lt;video controls >
 &lt;source src="modular-addition59-deep_pca12_fixed.mp4" type="video/mp4">
-&lt;/video>&lt;/p></description></item><item><title>Robust and Provably Monotonic Networks</title><link>https://okitouni.github.io/publication/lipnn/</link><pubDate>Sat, 07 Aug 2021 00:00:00 +0000</pubDate><guid>https://okitouni.github.io/publication/lipnn/</guid><description>&lt;!--
+&lt;/video>
+&lt;em>N.b.&lt;/em>, it is not necessary to get a perfect ordering in the first two principal components for generalization to occur. In some cases, the circle can be &amp;ldquo;spread out&amp;rdquo; over many components at different frequencies. For instance, the circle can be ordered modulo 2 in the first two principal components such that there are two degenerate cicles on top of each other. But this multiplicity is broken in lower principal components.&lt;/p></description></item><item><title>Robust and Provably Monotonic Networks</title><link>https://okitouni.github.io/publication/lipnn/</link><pubDate>Sat, 07 Aug 2021 00:00:00 +0000</pubDate><guid>https://okitouni.github.io/publication/lipnn/</guid><description>&lt;!--
 &lt;div class="alert alert-note">
 &lt;div>
 Click the &lt;em>Slides&lt;/em> button above to demo Academic&amp;rsquo;s Markdown slides feature.
