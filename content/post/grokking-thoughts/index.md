@@ -27,6 +27,6 @@ projects: []
 ---
 
 ## Animations
-
-The example below is an animation of the first Figure in {{< relref "/publication/grok >}}
+te
+The example below is an animation of the first Figure in {{< relref "/publication/grok" >}}
 {{< video src="modular-addition59-deep_pca12_fixed.mp4" controls="yes" >}}
