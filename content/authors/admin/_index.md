@@ -68,6 +68,6 @@ highlight_name: false
 ---
 I am a fourth year Ph.D. student at the Lab for Nuclear Science and the Statistics and Data Science Center at MIT. As a Junior Investigator at the Institute for AI and Fundamental Interactions, I am mainly interested in research at the interface between machine learning and physics. 
 Problems I work on include AI robustness, fairness, and interpretability applied to high energy physics. 
-I am also interested in understanding deep learning foundations using tools from theoretical physics.
+I am also interested in understanding the science of deep learning and AI foundations.
 <!---
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.-->
