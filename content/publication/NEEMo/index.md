@@ -36,7 +36,7 @@ links:
   # url: https://inspirehep.net/literature?sort=mostrecent&size=25&page=1&q=find%20eprint%202010.09745
 # - name: NeurIPS Abstract
   # url: https://ml4physicalsciences.github.io/2020/files/NeurIPS_ML4PS_2020_45.pdf
-# url_pdf: https://arxiv.org/abs/2010.09745
+url_pdf: https://arxiv.org/abs/2209.15624
 url_code: 'https://github.com/okitouni/EnergyMover-Dual/tree/neurips2022'
 #url_dataset: './featured.jpg'
 # url_poster: 'https://ml4physicalsciences.github.io/2020/files/NeurIPS_ML4PS_2020_45_poster.pdf'
