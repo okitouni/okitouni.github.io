@@ -6,7 +6,7 @@ authors:
 - admin
 tags: []
 categories: []
-date: "2021-09-21T00:00:00Z"
+date: "2022-09-21T00:00:00Z"
 # lastMod: "2019-09-05T00:00:00Z"
 featured: false
 draft: false
@@ -25,7 +25,10 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 ---
+<!-- Change this color later -->
 This page is a work-in-progress.
+## Summary
+
 ## Animations
 
 The example below is an animation of the first Figure from [our Grokking paper]({{< relref "/publication/Grok" >}}). 
