@@ -5,14 +5,9 @@ Click the &lt;em>Slides&lt;/em> button above to demo Academic&amp;rsquo;s Markdo
 &lt;/div>
 &lt;/div>
 Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).
---></description></item><item><title>Towards Understanding Grokking: An Effective Theory of Representation Learning</title><link>https://okitouni.github.io/publication/grok/</link><pubDate>Sun, 07 Aug 2022 00:00:00 +0000</pubDate><guid>https://okitouni.github.io/publication/grok/</guid><description>&lt;!--
-&lt;div class="alert alert-note">
-&lt;div>
-Click the &lt;em>Slides&lt;/em> button above to demo Academic&amp;rsquo;s Markdown slides feature.
-&lt;/div>
-&lt;/div>
-Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).
---></description></item><item><title>Some thoughts on Grokking</title><link>https://okitouni.github.io/post/grokking-thoughts/</link><pubDate>Tue, 21 Sep 2021 00:00:00 +0000</pubDate><guid>https://okitouni.github.io/post/grokking-thoughts/</guid><description>&lt;p>This page is a work-in-progress.&lt;/p>
+--></description></item><item><title>Some thoughts on Grokking</title><link>https://okitouni.github.io/post/grokking-thoughts/</link><pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate><guid>https://okitouni.github.io/post/grokking-thoughts/</guid><description>&lt;!-- Change this color later -->
+&lt;p>This page is a work-in-progress.&lt;/p>
+&lt;h2 id="summary">Summary&lt;/h2>
 &lt;h2 id="animations">Animations&lt;/h2>
 &lt;p>The example below is an animation of the first Figure from &lt;a href="https://okitouni.github.io/publication/grok/">our Grokking paper&lt;/a>.
 We visualize the first two principal components of the embeddings of a transformer model trained on the task of addition modulo 59. An interesting feature is that generalization seems to coincide with learnning an ordered representation of the embeddings around a circle (much like how a human would reason about modular addition).
@@ -23,7 +18,14 @@ What is more intriguing is that this &amp;ldquo;perfect&amp;rdquo; representatio
 &lt;video controls >
 &lt;source src="modular-addition59-deep_pca12_fixed.mp4" type="video/mp4">
 &lt;/video>
-&lt;em>N.b.&lt;/em>, it is not necessary to get a perfect ordering in the first two principal components for generalization to occur. In some cases, the circle can be &amp;ldquo;spread out&amp;rdquo; over many components at different frequencies. For instance, the circle can be ordered modulo 2 in the first two principal components such that there are two degenerate cicles on top of each other. But this multiplicity is broken in lower principal components.&lt;/p></description></item><item><title>Robust and Provably Monotonic Networks</title><link>https://okitouni.github.io/publication/lipnn/</link><pubDate>Sat, 07 Aug 2021 00:00:00 +0000</pubDate><guid>https://okitouni.github.io/publication/lipnn/</guid><description>&lt;!--
+&lt;em>N.b.&lt;/em>, it is not necessary to get a perfect ordering in the first two principal components for generalization to occur. In some cases, the circle can be &amp;ldquo;spread out&amp;rdquo; over many components at different frequencies. For instance, the circle can be ordered modulo 2 in the first two principal components such that there are two degenerate cicles on top of each other. But this multiplicity is broken in lower principal components.&lt;/p></description></item><item><title>Towards Understanding Grokking: An Effective Theory of Representation Learning</title><link>https://okitouni.github.io/publication/grok/</link><pubDate>Sun, 07 Aug 2022 00:00:00 +0000</pubDate><guid>https://okitouni.github.io/publication/grok/</guid><description>&lt;!--
+&lt;div class="alert alert-note">
+&lt;div>
+Click the &lt;em>Slides&lt;/em> button above to demo Academic&amp;rsquo;s Markdown slides feature.
+&lt;/div>
+&lt;/div>
+Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).
+--></description></item><item><title>Robust and Provably Monotonic Networks</title><link>https://okitouni.github.io/publication/lipnn/</link><pubDate>Sat, 07 Aug 2021 00:00:00 +0000</pubDate><guid>https://okitouni.github.io/publication/lipnn/</guid><description>&lt;!--
 &lt;div class="alert alert-note">
 &lt;div>
 Click the &lt;em>Slides&lt;/em> button above to demo Academic&amp;rsquo;s Markdown slides feature.
