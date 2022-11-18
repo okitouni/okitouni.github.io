@@ -1,4 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ouail Kitouni</title><link>https://okitouni.github.io/</link><atom:link href="https://okitouni.github.io/index.xml" rel="self" type="application/rss+xml"/><description>Ouail Kitouni</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 21 Sep 2022 00:00:00 +0000</lastBuildDate><image><url>https://okitouni.github.io/images/icon_hu78093045f097574c5772539a9c4bdc89_10083_512x512_fill_lanczos_center_3.png</url><title>Ouail Kitouni</title><link>https://okitouni.github.io/</link></image><item><title>NEEMo: Geometric Fitting using Neural Estimation of the Energy Mover's Distance</title><link>https://okitouni.github.io/publication/neemo/</link><pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate><guid>https://okitouni.github.io/publication/neemo/</guid><description>&lt;!--
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ouail Kitouni</title><link>https://okitouni.github.io/</link><atom:link href="https://okitouni.github.io/index.xml" rel="self" type="application/rss+xml"/><description>Ouail Kitouni</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 18 Nov 2022 00:00:00 +0000</lastBuildDate><image><url>https://okitouni.github.io/images/icon_hu78093045f097574c5772539a9c4bdc89_10083_512x512_fill_lanczos_center_3.png</url><title>Ouail Kitouni</title><link>https://okitouni.github.io/</link></image><item><title>Random Animations and Visualizations</title><link>https://okitouni.github.io/post/animations/</link><pubDate>Fri, 18 Nov 2022 00:00:00 +0000</pubDate><guid>https://okitouni.github.io/post/animations/</guid><description>&lt;!-- Change this color later -->
+&lt;p>This page is a work-in-progress.&lt;/p>
+&lt;h2 id="neural-estimation-energy-movers-distance-neemo">Neural Estimation Energy Mover&amp;rsquo;s Distance (NEEMo)&lt;/h2>
+&lt;h3 id="triangle-and-ellipse-fit">Triangle and Ellipse Fit&lt;/h3>
+&lt;p>Fitting the target distribution (green) with an ellipse and a triangle (red) using the NEEMo algorithm.&lt;/p>
+&lt;video controls >
+&lt;source src="triangleFitx5.mp4" type="video/mp4">
+&lt;/video>
+&lt;h3 id="multi-circle-fit">Multi-circle Fit&lt;/h3>
+&lt;p>Now we fit the target distribution (green) with three circles (red).
+&lt;video controls >
+&lt;source src="CircleFitx10.mp4" type="video/mp4">
+&lt;/video>&lt;/p></description></item><item><title>NEEMo: Geometric Fitting using Neural Estimation of the Energy Mover's Distance</title><link>https://okitouni.github.io/publication/neemo/</link><pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate><guid>https://okitouni.github.io/publication/neemo/</guid><description>&lt;!--
 &lt;div class="alert alert-note">
 &lt;div>
 Click the &lt;em>Slides&lt;/em> button above to demo Academic&amp;rsquo;s Markdown slides feature.
