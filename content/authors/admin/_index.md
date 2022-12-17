@@ -6,7 +6,7 @@ title: Ouail Kitouni
 superuser: true
 
 # Role/position/tagline
-role: Physics, Data Science and Statistics dual degree Ph.D. Candidate 
+role: Physics, Statistics and Data Science dual degree Ph.D. Candidate 
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -20,7 +20,7 @@ bio: Using ML to solve problems in physics, and using physics to improve ML.
 interests:
 - Deep Learning 
 - Particle Physics 
-- Data Science 
+# - Data Science 
 
 # Education to show in About widget
 education:
@@ -64,8 +64,8 @@ email: "kitouni@mit.edu"
 # Highlight the author in author lists? (true/false)
 highlight_name: false
 ---
-I am a fourth year Ph.D. student at the Lab for Nuclear Science and the Statistics and Data Science Center at MIT. As a Junior Investigator at the Institute for AI and Fundamental Interactions, I am mainly interested in research at the interface between machine learning and physics. 
-Problems I work on include AI robustness, fairness, and interpretability applied to high energy physics. 
-I am also interested in understanding the science of deep learning and AI foundations.
+I am a Ph.D. student at the Lab for Nuclear Science and the Statistics and Data Science Center at MIT. As a Junior Investigator at the Institute for AI and Fundamental Interactions, I am mainly interested in research at the interface between machine learning and physics. 
+Problems I work on include AI robustness, fairness, and interpretability with applications to high energy physics. 
+I am also interested in understanding the science of deep learning and AI foundations. Recently, I've been very excited about AI reasoning, large language models, and scaling.
 <!---
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.-->
