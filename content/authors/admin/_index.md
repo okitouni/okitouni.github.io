@@ -14,7 +14,7 @@ organizations:
   url: https://www.mit.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: Using ML to solve problems in physics, and using physics to improve ML.
+bio: Working on the Science of Deep Learning.
 
 # Interests to show in About widget
 interests:
@@ -64,8 +64,8 @@ email: "kitouni@mit.edu"
 # Highlight the author in author lists? (true/false)
 highlight_name: false
 ---
-I am a Ph.D. student at the Lab for Nuclear Science and the Statistics and Data Science Center at MIT. As a Junior Investigator at the Institute for AI and Fundamental Interactions, I am mainly interested in research at the interface between machine learning and physics. 
-Problems I work on include AI robustness, fairness, and interpretability with applications to high energy physics. 
-I am also interested in understanding the science of deep learning and AI foundations. Recently, I've been very excited about AI reasoning, large language models, and scaling.
+I am a Ph.D. student at MIT and a Junior Investigator at the Institute for AI and Fundamental Interactions. During my Ph.D., I worked a lot in research at the interface between machine learning and physics including AI robustness, fairness, and interpretability with applications to high energy physics. 
+I am also interested in understanding the science of deep learning and AI foundations. Recently, I've been very excited about AI reasoning, multi-modal foundation models, safe and scalable deep learning.
+During my time at Microsoft Research, I worked on knowledge augmented language models to improve interpretablilty and limit hallucination in critical environments.
 <!---
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.-->
