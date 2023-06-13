@@ -66,6 +66,7 @@ highlight_name: false
 ---
 I am a Ph.D. student at MIT and a Junior Investigator at the Institute for AI and Fundamental Interactions. During my Ph.D., I worked a lot in research at the interface between machine learning and physics including AI robustness, fairness, and interpretability with applications to high energy physics. 
 I am also interested in understanding the science of deep learning and AI foundations. Recently, I've been very excited about AI reasoning, multi-modal foundation models, safe and scalable deep learning.
-During my time at Microsoft Research, I worked on knowledge augmented language models to improve interpretablilty and limit hallucination in critical environments.
+During my time at Microsoft Research, I worked on knowledge base generative models as part of a knowledge-augmented LLM approach to improving interpretablilty and limit hallucination in critical environments.
+
 <!---
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.-->
