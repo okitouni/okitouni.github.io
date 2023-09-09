@@ -6,7 +6,7 @@ title: Ouail Kitouni
 superuser: true
 
 # Role/position/tagline
-role: Physics, Statistics and Data Science dual degree Ph.D. Candidate 
+role: Physics, Statistics and Data Science Ph.D.
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -18,8 +18,9 @@ bio: Working on the Science of Deep Learning.
 
 # Interests to show in About widget
 interests:
-- Deep Learning 
-- Particle Physics 
+- Science of Deep Learning 
+- (Mechanistic) Interpretability
+- Reasoning in Foundation Models
 # - Data Science 
 
 # Education to show in About widget
@@ -64,6 +65,8 @@ email: "kitouni@mit.edu"
 # Highlight the author in author lists? (true/false)
 highlight_name: false
 ---
+[[wa-ill kitooney] (Davis pronounces it best) 🔊](https://www.naturalreaders.com/online/?s=V3586c7b9f51cf408ea63fb6ad276211ba.txt&t=Shared%20Text%20File%202023-09-09T13%3A32%3A30.166Z)
+
 I am a Ph.D. student at MIT and a Junior Investigator at the Institute for AI and Fundamental Interactions. During my Ph.D., I worked a lot in research at the interface between machine learning and physics including AI robustness, fairness, and interpretability with applications to high energy physics. 
 I am also interested in understanding the science of deep learning and AI foundations. Recently, I've been very excited about AI reasoning, multi-modal foundation models, safe and scalable deep learning.
 During my time at Microsoft Research, I worked on knowledge base generative models as part of a knowledge-augmented LLM approach to improving interpretablilty and limit hallucination in critical environments.

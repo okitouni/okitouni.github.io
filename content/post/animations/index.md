@@ -26,7 +26,7 @@ image:
 projects: []
 ---
 <!-- Change this color later -->
-This page is a work-in-progress.
+[This page is a work-in-progress.]
 ## Neural Estimation Energy Mover's Distance (NEEMo)
 ### Triangle and Ellipse Fit
 Fitting the target distribution (green) with an ellipse and a triangle (red) using the NEEMo algorithm.
