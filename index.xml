@@ -6,7 +6,7 @@ Click the &lt;em>Slides&lt;/em> button above to demo Academic&amp;rsquo;s Markdo
 &lt;/div>
 Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).
 --></description></item><item><title>Random Animations and Visualizations</title><link>https://okitouni.github.io/post/animations/</link><pubDate>Fri, 18 Nov 2022 00:00:00 +0000</pubDate><guid>https://okitouni.github.io/post/animations/</guid><description>&lt;!-- Change this color later -->
-&lt;p>This page is a work-in-progress.&lt;/p>
+&lt;p>[This page is a work-in-progress.]&lt;/p>
 &lt;h2 id="neural-estimation-energy-movers-distance-neemo">Neural Estimation Energy Mover&amp;rsquo;s Distance (NEEMo)&lt;/h2>
 &lt;h3 id="triangle-and-ellipse-fit">Triangle and Ellipse Fit&lt;/h3>
 &lt;p>Fitting the target distribution (green) with an ellipse and a triangle (red) using the NEEMo algorithm.&lt;/p>
