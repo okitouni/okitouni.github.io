@@ -19,6 +19,7 @@ bio: Working on the Science of Deep Learning.
 # Interests to show in About widget
 interests:
 - Science of Deep Learning 
+- Deep Learning for Science
 - (Mechanistic) Interpretability
 - Reasoning in Foundation Models
 # - Data Science 
