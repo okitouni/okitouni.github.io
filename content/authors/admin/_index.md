@@ -69,9 +69,9 @@ highlight_name: false
 [wa-ill kitooney] [(Davis pronounces it best) 🔊](
 https://www.naturalreaders.com/online/?s=V3102afdb1cc44429b8e9e731fb7c32528.txt&t=Shared%20Text%20File%202023-10-05T18%3A54%3A59.567Z)
 
-I am a Ph.D. student at MIT and a Junior Investigator at the Institute for AI and Fundamental Interactions. During my Ph.D., I worked a lot in research at the interface between machine learning and physics including AI robustness, fairness, and interpretability with applications to high energy physics. 
+I am a Ph.D. student at MIT in the Institute for AI and Fundamental Interactions. During my Ph.D., I worked a lot in research at the interface between machine learning and physics including AI robustness, fairness, and interpretability with applications to physics. 
 I am also interested in understanding the science of deep learning and AI foundations. Recently, I've been very excited about AI reasoning, multi-modal foundation models, safe and scalable deep learning.
-During my time at Microsoft Research, I worked on knowledge base generative models as part of a knowledge-augmented LLM approach to improving interpretablilty and limit hallucination in critical environments.
+During my time at Microsoft Research, I worked on developing a knowledge base generative model towards a knowledge-augmented LLM approach to improving interpretability and limit hallucination.
 
 <!---
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.-->
