@@ -37,4 +37,7 @@ The work is still in progress, but code is available [here](https://github.com/o
 
 ## Visualization of the "nuclear" embeddings
 One-hot encoded representations of proton number, neutron number, and task are concatenated and input to the first layer. The visualization shows the first three principal components of all observed proton-neutron combinations, with the first two components as x-y axes and the third as color.
-{{< nuclr_plotly_firstlayer >}}
+{{< nuclr_plotly_firstlayer2d >}}
+
+Here's a 3D version with the 4th principal component as color.
+{{< nuclr_plotly_firstlayer3d >}}
