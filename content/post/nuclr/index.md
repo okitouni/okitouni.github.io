@@ -41,3 +41,9 @@ One-hot encoded representations of proton number, neutron number, and task are c
 
 Here's a 3D version with the 4th principal component as color.
 {{< nuclr_plotly_firstlayer3d >}}
+
+<iframe 
+    src="https://okitouni-streamlit-example-streamlit-app-ooy6wu.streamlit.app/?embed=true"
+    height="1700"
+    style="width:100%;border:none;"
+  ></iframe>
