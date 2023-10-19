@@ -25,7 +25,7 @@ publication_short: ""
 abstract: A key challenge in searches for resonant new physics is that classifiers trained to enhance potential signals must not induce localized structures. Such structures could result in a false signal when the background is estimated from data using sideband methods. A variety of techniques have been developed to construct classifiers which are independent from the resonant feature (often a mass). Such strategies are sufficient to avoid localized structures, but are not necessary. We develop a new set of tools using a novel moment loss function (Moment Decomposition or MoDe) which relax the assumption of independence without creating structures in the background. By allowing classifiers to be more flexible, we enhance the sensitivity to new physics without compromising the fidelity of the background estimation.
 
 # Summary. An optional shortened abstract.
-summary: Moment Decorrelation (MoDe) is a tool that can enforce decorrelation between some nuisance parameter (or protected attribute in ML fairness lingo) and the response of some model with gradient-based optimization (a neural network for example.) It can force trained models to have the same response across different values of the protected attribute but it can also go beyond simple decorrelation. For example, MoDe can constrain the response function to be linear or quadratic in the protected attribute. 
+summary: Moment Decorrelation (MoDe) is a tool designed to ensure that a model's output remains uncorrelated with certain parameters, commonly termed as protected attributes in fairness contexts. Beyond mere decorrelation, MoDe can even shape the response function to adopt linear or quadratic relationships with the protected attribute.
 
 tags:
 - Deep Learning 
