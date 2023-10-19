@@ -15,7 +15,7 @@ draft: false
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
   caption: "Dall-E 3's interpretation of a the intersection of physics and deep learning"
-  focal_point: ""
+  focal_point: "Center"
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.

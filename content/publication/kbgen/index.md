@@ -49,7 +49,7 @@ links:
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
   caption: "KBFormer architecture on the left and key for the diagram on the right. In this example, the model is tasked to predict the masked value for the 'weight.value' property."
-  focal_point: "Smart"
+  focal_point: "Center"
   preview_only: false
 
 # Associated Projects (optional).
