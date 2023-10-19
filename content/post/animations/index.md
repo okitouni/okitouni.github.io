@@ -15,7 +15,7 @@ draft: false
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
   caption: ""
-  focal_point: ""
+  focal_point: "Center"
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
@@ -26,7 +26,6 @@ image:
 projects: []
 ---
 <!-- Change this color later -->
-[This page is a work-in-progress.]
 ## Neural Estimation Energy Mover's Distance (NEEMo)
 ### Triangle and Ellipse Fit
 Fitting the target distribution (green) with an ellipse and a triangle (red) using the NEEMo algorithm.

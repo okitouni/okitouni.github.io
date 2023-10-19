@@ -14,8 +14,8 @@ draft: false
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: ""
-  focal_point: ""
+  caption: "This figure makes no sense but it looks cool. Dall-E3."
+  focal_point: "Center"
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
@@ -26,7 +26,6 @@ image:
 projects: []
 ---
 <!-- Change this color later -->
-[This page is a work-in-progress.]
 
 Grokking, the phenomenon by which some models generalize well after overfitting, was very intriguing when it was first observed. In this post, I will try to summarize some observations I made while trying to understand this phenomenon.
 ## Formation of structure (animated)
