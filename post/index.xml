@@ -41,7 +41,6 @@ Some topics I plan on talking about:
 &lt;li>Topics in Mechanistic Interpretability.&lt;/li>
 &lt;li>Miscellaneous topics in optimization via gradient descent in the Deep Learning setting. This includes topics like the role of normalization, adaptive optimization, implicit/explicit regularization, etc.&lt;/li>
 &lt;/ul></description></item><item><title>Random Animations and Visualizations</title><link>https://okitouni.github.io/post/animations/</link><pubDate>Fri, 18 Nov 2022 00:00:00 +0000</pubDate><guid>https://okitouni.github.io/post/animations/</guid><description>&lt;!-- Change this color later -->
-&lt;p>[This page is a work-in-progress.]&lt;/p>
 &lt;h2 id="neural-estimation-energy-movers-distance-neemo">Neural Estimation Energy Mover&amp;rsquo;s Distance (NEEMo)&lt;/h2>
 &lt;h3 id="triangle-and-ellipse-fit">Triangle and Ellipse Fit&lt;/h3>
 &lt;p>Fitting the target distribution (green) with an ellipse and a triangle (red) using the NEEMo algorithm.&lt;/p>
@@ -53,7 +52,6 @@ Some topics I plan on talking about:
 &lt;video controls >
 &lt;source src="CircleFitx10.mp4" type="video/mp4">
 &lt;/video>&lt;/p></description></item><item><title>Some thoughts on Grokking</title><link>https://okitouni.github.io/post/grokking-thoughts/</link><pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate><guid>https://okitouni.github.io/post/grokking-thoughts/</guid><description>&lt;!-- Change this color later -->
-&lt;p>[This page is a work-in-progress.]&lt;/p>
 &lt;p>Grokking, the phenomenon by which some models generalize well after overfitting, was very intriguing when it was first observed. In this post, I will try to summarize some observations I made while trying to understand this phenomenon.&lt;/p>
 &lt;h2 id="formation-of-structure-animated">Formation of structure (animated)&lt;/h2>
 &lt;p>The example below is an animation of the first Figure from &lt;a href="https://okitouni.github.io/publication/grok/">our Grokking paper&lt;/a>.

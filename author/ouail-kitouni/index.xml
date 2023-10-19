@@ -55,7 +55,6 @@ Click the &lt;em>Slides&lt;/em> button above to demo Academic&amp;rsquo;s Markdo
 &lt;/div>
 Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).
 --></description></item><item><title>Random Animations and Visualizations</title><link>https://okitouni.github.io/post/animations/</link><pubDate>Fri, 18 Nov 2022 00:00:00 +0000</pubDate><guid>https://okitouni.github.io/post/animations/</guid><description>&lt;!-- Change this color later -->
-&lt;p>[This page is a work-in-progress.]&lt;/p>
 &lt;h2 id="neural-estimation-energy-movers-distance-neemo">Neural Estimation Energy Mover&amp;rsquo;s Distance (NEEMo)&lt;/h2>
 &lt;h3 id="triangle-and-ellipse-fit">Triangle and Ellipse Fit&lt;/h3>
 &lt;p>Fitting the target distribution (green) with an ellipse and a triangle (red) using the NEEMo algorithm.&lt;/p>
@@ -74,7 +73,6 @@ Click the &lt;em>Slides&lt;/em> button above to demo Academic&amp;rsquo;s Markdo
 &lt;/div>
 Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).
 --></description></item><item><title>Some thoughts on Grokking</title><link>https://okitouni.github.io/post/grokking-thoughts/</link><pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate><guid>https://okitouni.github.io/post/grokking-thoughts/</guid><description>&lt;!-- Change this color later -->
-&lt;p>[This page is a work-in-progress.]&lt;/p>
 &lt;p>Grokking, the phenomenon by which some models generalize well after overfitting, was very intriguing when it was first observed. In this post, I will try to summarize some observations I made while trying to understand this phenomenon.&lt;/p>
 &lt;h2 id="formation-of-structure-animated">Formation of structure (animated)&lt;/h2>
 &lt;p>The example below is an animation of the first Figure from &lt;a href="https://okitouni.github.io/publication/grok/">our Grokking paper&lt;/a>.
@@ -92,14 +90,14 @@ What is more intriguing is that this &amp;ldquo;perfect&amp;rdquo; representatio
 The code can be found here: &lt;a href="https://github.com/okitouni/simple-grokking" target="_blank" rel="noopener">https://github.com/okitouni/simple-grokking&lt;/a>
 &lt;img src="metrics_grokking.jpg" alt="metrics_grokking">
 To undo Grokking (i.e. generalize earlier) we can simply increase the amount of weight decay used (from 0.03 to 5) and get the following results:
-&lt;img src="metrics_comprehension.jpg" alt="metrics_comprehension">&lt;/p></description></item><item><title>Towards Understanding Grokking: An Effective Theory of Representation Learning</title><link>https://okitouni.github.io/publication/grok/</link><pubDate>Sun, 07 Aug 2022 00:00:00 +0000</pubDate><guid>https://okitouni.github.io/publication/grok/</guid><description>&lt;!--
+&lt;img src="metrics_comprehension.jpg" alt="metrics_comprehension">&lt;/p></description></item><item><title>Robust and Provably Monotonic Networks</title><link>https://okitouni.github.io/publication/lipnn/</link><pubDate>Sun, 07 Aug 2022 00:00:00 +0000</pubDate><guid>https://okitouni.github.io/publication/lipnn/</guid><description>&lt;!--
 &lt;div class="alert alert-note">
 &lt;div>
 Click the &lt;em>Slides&lt;/em> button above to demo Academic&amp;rsquo;s Markdown slides feature.
 &lt;/div>
 &lt;/div>
 Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).
---></description></item><item><title>Robust and Provably Monotonic Networks</title><link>https://okitouni.github.io/publication/lipnn/</link><pubDate>Sat, 07 Aug 2021 00:00:00 +0000</pubDate><guid>https://okitouni.github.io/publication/lipnn/</guid><description>&lt;!--
+--></description></item><item><title>Towards Understanding Grokking: An Effective Theory of Representation Learning</title><link>https://okitouni.github.io/publication/grok/</link><pubDate>Tue, 07 Jun 2022 00:00:00 +0000</pubDate><guid>https://okitouni.github.io/publication/grok/</guid><description>&lt;!--
 &lt;div class="alert alert-note">
 &lt;div>
 Click the &lt;em>Slides&lt;/em> button above to demo Academic&amp;rsquo;s Markdown slides feature.
