@@ -13,7 +13,7 @@ draft: false
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
-# image:
+image:
 #   caption: "Most important principal components of the neutron embedding representations from (left) early and (right) late in the training.
 # The left panel shows that the most crucial aspects of the nuclear shell model, namely the shell structure, including the magic numbers, and
 # the Pauli Exclusion Principle, arise already early in the training. (The Pauli principle is evident with the even (odd) numbers represented
@@ -21,7 +21,8 @@ draft: false
 # In the right panel, the even-odd split now occurs in PC dimension 4, hence is not shown. The shell structure has grown into 3-dimensional
 # spirals, with the largest 4 magic numbers all occurring at local maxima in PC2 and each shell represented as one revolution around an
 # approximately conic surface. Interpreting this spiral structure is ongoing work."
-#   focal_point: ""
+# Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+  focal_point: "Center"
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
@@ -42,8 +43,11 @@ One-hot encoded representations of proton number, neutron number, and task are c
 Here's a 3D version with the 4th principal component as color.
 {{< nuclr_plotly_firstlayer3d >}}
 
+In the visualizations below, you can choose which principal components to display as well as filter by neutron or proton numbers.
+
 <iframe 
     src="https://nuclr-interp.streamlit.app/?embed=true"
-    height="1700"
+    height="1300"
     style="width:100%;border:none;"
   ></iframe>
+
