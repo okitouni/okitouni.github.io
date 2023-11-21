@@ -66,8 +66,7 @@ email: "kitouni@mit.edu"
 # Highlight the author in author lists? (true/false)
 highlight_name: false
 ---
-[wa-ill kitooney] [(Davis pronounces it best) 🔊](
-https://www.naturalreaders.com/online/?s=V3102afdb1cc44429b8e9e731fb7c32528.txt&t=Shared%20Text%20File%202023-10-05T18%3A54%3A59.567Z)
+[[wa-ill kitoonee] 🔊](media/pronounce_name.mp3)
 
 I am a Ph.D. student at MIT in the Institute for AI and Fundamental Interactions. During my Ph.D., I worked a lot in research at the interface between machine learning and physics including AI robustness, fairness, and interpretability with applications to physics. 
 I am also interested in understanding the science of deep learning and AI foundations. Recently, I've been very excited about AI reasoning, multi-modal foundation models, safe and scalable deep learning.
