@@ -33,7 +33,7 @@ featured: true
 
 links:
 - name: PDF
-  url: '/files/kbgen/kbgen.pdf' 
+  url: '/files/kbgen/kbgen-latest.pdf' 
 # url_code: 'https://github.com/niklasnolte/MonotOneNorm'
 # url_dataset: './featured.jpg'
 # url_poster: 'https://ml4physicalsciences.github.io/2021/files/NeurIPS_ML4PS_2021_86_poster.png'
