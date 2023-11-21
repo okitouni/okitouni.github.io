@@ -28,7 +28,7 @@ summary: We develop a novel neural architecture with an exact bound on its Lipsc
 
 tags:
 - Deep Learning 
-featured: false
+featured: true
 
 links:
 - name: NeurIPS Abstract

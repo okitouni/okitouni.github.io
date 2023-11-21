@@ -6,7 +6,7 @@ authors:
 - James Hensman
 - Bhaskar Mitra
 
-date: "2023-10-01T00:00:00Z"
+date: "2023-09-01T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -19,7 +19,7 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
-publication: ""
+publication: "ICLR2024"
 publication_short: ""
 
 abstract: We introduced a generative framework that can process and model diverse data types, from numbers to strings to complex hierarchical properties. This is especially valuable for tasks like filling in missing data in structured databases or tables. Notably, our experiments showcased the model's proficiency in accurately predicting numerical values, which is vital for scientific applications. This approach can be used in Augmented Language Modeling to improve information retrieval and knowledge manipulation. 
