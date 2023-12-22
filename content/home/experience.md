@@ -18,14 +18,14 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
-# [[experience]]
-#   title = "Research Scientist Intern (Incoming)"
-#  company = "Meta AI"
-#  company_url = "https://ai.facebook.com"
-#  location = "NYC, NY"
-#  date_start = "2023-12-04"
-#  date_end = "2024-05-05"
-#  description = ""
+[[experience]]
+  title = "Research Scientist Intern"
+ company = "Meta AI"
+ company_url = "https://ai.facebook.com"
+ location = "NYC, NY"
+ date_start = "2024-01-08"
+ date_end = "2024-05-17"
+ description = ""
   
 
 [[experience]]
