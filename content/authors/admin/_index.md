@@ -6,7 +6,7 @@ title: Ouail Kitouni
 superuser: true
 
 # Role/position/tagline
-role: Physics, Statistics and Data Science Ph.D.
+role: Ph.D. Student
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -68,7 +68,7 @@ highlight_name: false
 ---
 [[wa-ill kitoonee] 🔊](media/pronounce_name.mp3)
 
-I am a Ph.D. student at MIT in the Institute for AI and Fundamental Interactions. During my Ph.D., I worked a lot in research at the interface between machine learning and physics including AI robustness, fairness, and interpretability with applications to physics. 
+I am a Ph.D. student at MIT in the Institute for AI and Fundamental Interactions (IAIFI). In the past, I worked a lot in research at the interface between machine learning and physics including AI robustness, fairness, and interpretability with applications to physics. 
 I am also interested in understanding the science of deep learning and AI foundations. Recently, I've been very excited about AI reasoning, multi-modal foundation models, safe and scalable deep learning.
 During my time at Microsoft Research, I worked on developing a knowledge base generative model towards a knowledge-augmented LLM approach to improving interpretability and limit hallucination.
 
