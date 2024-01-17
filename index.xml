@@ -61,7 +61,7 @@ Click the &lt;em>Slides&lt;/em> button above to demo Academic&amp;rsquo;s Markdo
 &lt;/div>
 &lt;/div>
 Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).
---></description></item><item><title>Random Animations and Visualizations</title><link>https://okitouni.github.io/post/animations/</link><pubDate>Fri, 18 Nov 2022 00:00:00 +0000</pubDate><guid>https://okitouni.github.io/post/animations/</guid><description>&lt;!-- Change this color later -->
+--></description></item><item><title>Misc. Animations and Visualizations</title><link>https://okitouni.github.io/post/animations/</link><pubDate>Fri, 18 Nov 2022 00:00:00 +0000</pubDate><guid>https://okitouni.github.io/post/animations/</guid><description>&lt;!-- Change this color later -->
 &lt;h2 id="neural-estimation-energy-movers-distance-neemo">Neural Estimation Energy Mover&amp;rsquo;s Distance (NEEMo)&lt;/h2>
 &lt;h3 id="triangle-and-ellipse-fit">Triangle and Ellipse Fit&lt;/h3>
 &lt;p>Fitting the target distribution (green) with an ellipse and a triangle (red) using the NEEMo algorithm.&lt;/p>
@@ -97,7 +97,114 @@ What is more intriguing is that this &amp;ldquo;perfect&amp;rdquo; representatio
 The code can be found here: &lt;a href="https://github.com/okitouni/simple-grokking" target="_blank" rel="noopener">https://github.com/okitouni/simple-grokking&lt;/a>
 &lt;img src="metrics_grokking.jpg" alt="metrics_grokking">
 To undo Grokking (i.e. generalize earlier) we can simply increase the amount of weight decay used (from 0.03 to 5) and get the following results:
-&lt;img src="metrics_comprehension.jpg" alt="metrics_comprehension">&lt;/p></description></item><item><title>Robust and Provably Monotonic Networks</title><link>https://okitouni.github.io/publication/lipnn/</link><pubDate>Sun, 07 Aug 2022 00:00:00 +0000</pubDate><guid>https://okitouni.github.io/publication/lipnn/</guid><description>&lt;!--
+&lt;img src="metrics_comprehension.jpg" alt="metrics_comprehension">&lt;/p></description></item><item><title>Monotonic Networks</title><link>https://okitouni.github.io/project/monotonic/</link><pubDate>Sun, 07 Aug 2022 00:00:00 +0000</pubDate><guid>https://okitouni.github.io/project/monotonic/</guid><description>&lt;h1 id="table-of-contents">Table of Contents&lt;/h1>
+&lt;ul>
+&lt;li>&lt;a href="#lipschitz-monotonic-networks">Lipschitz Monotonic Networks&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#installation">Installation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#requirements">Requirements&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#usage">Usage&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#examples">Examples&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#monotonicity">Monotonicity&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#robustness">Robustness&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#lipschitz-nns-can-describe-arbitrarily-complex-boundaries">Lipschitz NNs can describe arbitrarily complex boundaries&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h1 id="lipschitz-monotonic-networks">Lipschitz Monotonic Networks&lt;/h1>
+&lt;p>Implementation of Lipschitz Monotonic Networks, from the ICLR 2023 Submission: &lt;a href="https://openreview.net/pdf?id=w2P7fMy_RH" target="_blank" rel="noopener">https://openreview.net/pdf?id=w2P7fMy_RH&lt;/a> and the repo is on &lt;a href="https://github.com/niklasnolte/MonotonicNetworks" target="_blank" rel="noopener">github&lt;/a>.&lt;/p>
+&lt;p>The code here allows one to apply various weight constraints on &lt;code>torch.nn.Linear&lt;/code> layers through the &lt;code>kind&lt;/code> keyword. Here are the available weight norms:&lt;/p>
+&lt;pre>&lt;code>&amp;quot;one&amp;quot;, # |W|_1 constraint
+&amp;quot;inf&amp;quot;, # |W|_inf constraint
+&amp;quot;one-inf&amp;quot;, # |W|_1,inf constraint
+&amp;quot;two-inf&amp;quot;, # |W|_2,inf constraint
+&lt;/code>&lt;/pre>
+&lt;h1 id="installation">Installation&lt;/h1>
+&lt;div align="center">
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;center> &lt;strong>pip&lt;/strong>&lt;/th>
+&lt;th>&lt;center> &lt;strong>conda&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;code>pip install monotonicnetworks&lt;/code>&lt;br> &lt;center>&lt;a href="https://badge.fury.io/py/monotonicnetworks" target="_blank" rel="noopener">&lt;img src="https://badge.fury.io/py/monotonicnetworks.svg" alt="PyPI version">&lt;/a>&lt;/center>&lt;/td>
+&lt;td>&lt;code>conda install -c conda-forge monotonicnetworks&lt;/code>&lt;br> &lt;center>&lt;img src="https://img.shields.io/conda/dn/conda-forge/monotonicnetworks" alt="Conda">&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;/center>
+&lt;/div>
+&lt;p>Note that the package used to be called &lt;code>monotonenorm&lt;/code> and was renamed to &lt;code>monotonicnetworks&lt;/code> on 2023-07-15. The old package is still available on PyPI and conda-forge, but will not be updated.&lt;/p>
+&lt;p>&lt;a href="https://badge.fury.io/py/monotonenorm" target="_blank" rel="noopener">&lt;img src="https://badge.fury.io/py/monotonenorm.svg" alt="PyPI version">&lt;/a> (deprecated) &lt;code>pip install monotonenorm&lt;/code>&lt;/p>
+&lt;p>&lt;a href="https://anaconda.org/okitouni/monotonenorm" target="_blank" rel="noopener">&lt;img src="https://img.shields.io/conda/v/okitouni/monotonenorm" alt="Latest conda-forge version">&lt;/a> (deprecated) &lt;code>conda install -c okitouni monotonenorm&lt;/code>&lt;/p>
+&lt;h1 id="requirements">Requirements&lt;/h1>
+&lt;p>Make sure you have the following packages installed:&lt;/p>
+&lt;ul>
+&lt;li>torch (required)&lt;/li>
+&lt;li>matplotlib (optional, for plotting examples)&lt;/li>
+&lt;li>tqdm (optional, to run the examples with a progress bar)&lt;/li>
+&lt;/ul>
+&lt;h1 id="usage">Usage&lt;/h1>
+&lt;p>Here&amp;rsquo;s an example showing two ways to create a Lipschitz-constrained linear layer.&lt;/p>
+&lt;pre>&lt;code class="language-python">from torch import nn
+import monotonicnetworks as lmn
+linear_by_norming = lmn.direct_norm(nn.Linear(10, 10), kind=&amp;quot;one-inf&amp;quot;) # |W|_1,inf constraint
+linear_native = lmn.LipschitzLinear(10, 10, kind=&amp;quot;one-inf&amp;quot;) # |W|_1,inf constraint
+&lt;/code>&lt;/pre>
+&lt;p>The function &lt;code>lmn.direct_norm&lt;/code> can apply various weight constraints on torch.nn.Linear layers through the &lt;code>kind&lt;/code> keyword and return a Lipschitz-constrained linear layer. Alternatively, the code in &lt;code>montonenorm/LipschitzMonotonicNetwork.py&lt;/code> contains several classes that can be used to create Lipschitz and Monotonic Layers directly.&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>The &lt;code>LipschitzLinear&lt;/code> class is a linear layer with a Lipschitz constraint on its weights.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>The &lt;code>MonotonicLayer&lt;/code> class is a linear layer with a Lipschitz constraint on its weights and monotonicity constraints that can be specified for each input dimension, or for each input-output pair. For instance, suppose we want to model a 2 input x 3 output linear layer where the first output is monotonically increasing in the first input ([1, 0]), the second output is monotonically decreasing in the second input ([0, -1]), and the third output is monotonically increasing in the first input and monotonically decreasing in the second input ([1, -1]). We can do this by specifying the monotonicity constraints as follows:&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;pre>&lt;code class="language-python">import monotonicnetworks as lmn
+linear = lmn.MonotonicLayer(2, 3, monotonic_constraints=[[1, 0], [0, 1], [1, -1]])
+&lt;/code>&lt;/pre>
+&lt;p>Using a 1D tensor for the constraint assumes that they are the same for each output dimension. By default, the code assumes all outputs are monotonically increasing with all inputs.&lt;/p>
+&lt;ul>
+&lt;li>The &lt;code>MonotonicWrapper&lt;/code> class is a wrapper around a module with a Lipschitz constant. It adds a term to the output of the module which enforces monotonicity constraints given by monotonic_constraints. The class returns a module that is monotonic and Lipschitz with constant lipschitz_const. This is the preferred way to create a monotonic network. Example:&lt;/li>
+&lt;/ul>
+&lt;pre>&lt;code class="language-python">from torch import nn
+import monotonicnetworks as lmn
+lip_nn = nn.Sequential(
+lmn.LipschitzLinear(2, 32, kind=&amp;quot;one-inf&amp;quot;),
+lmn.GroupSort(2),
+lmn.LipschitzLinear(32, 2, kind=&amp;quot;inf&amp;quot;),
+)
+monotonic_nn = lmn.MonotonicWrapper(lip_nn, monotonic_constraints=[1,0]) # first input increasing, no monotonicity constraints on second input
+&lt;/code>&lt;/pre>
+&lt;p>Note that one can stack monotonic modules.&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>The &lt;code>SigmaNet&lt;/code> class is a deprecated class that is equivalent to the MonotonicWrapper class.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>The &lt;code>RMSNorm&lt;/code> class is a class that implements the RMSNorm normalization layer. It can help when training
+a model with many Lipschitz-constrained layers.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h1 id="examples">Examples&lt;/h1>
+&lt;p>Check out the &lt;code>Examples&lt;/code> directory for more details. Specifically, &lt;code>Examples/flower.py&lt;/code> shows how to train a Lipschitz Monotonic Network to regress on a complex decision boundary in 2D (under &lt;a href="#lipschitz-nns-can-describe-arbitrarily-complex-boundaries">Lipschitz NNs can describe arbitrarily complex boundaries&lt;/a>), and &lt;code>Examples/Examples_paper.ipynb&lt;/code> for the code used to make the plots under &lt;a href="#monotonicity">Monotonicity&lt;/a> and &lt;a href="#robustness">Robustness&lt;/a>.&lt;/p>
+&lt;h2 id="monotonicity">Monotonicity&lt;/h2>
+&lt;p>We will make a simple toy regression model to fit the following 1D function
+$$f(x) = log(x) + \epsilon(x)$$
+where $\epsilon(x)$ is a Gaussian noise term whose variance is linearly increasing in x.
+In this toy model, we will assume that we have good reason to believe that the function we are trying to fit is monotonic (despite non-monotnic behavior of the noise). For example, we are building a trigger algorithm to discriminate between signal and background events. Rarer events are more likely to be signal and thus we should employ a network that is monotonic in some &amp;ldquo;rareness&amp;rdquo; feature. Another example could be a hiring classifier where (all else equal) higher school grades should imply better chances of being hired.&lt;/p>
+&lt;p>Training a monotonic NN and an unconstrained NN on the purple points and evaluating the networks on a uniform grid gives the following result:&lt;/p>
+&lt;p>&lt;img src="monotonic_dependence_unobserved_UpFalse_InterpFalse.png" alt="Monotonic Dependence">&lt;/p>
+&lt;h2 id="robustness">Robustness&lt;/h2>
+&lt;p>Now we will make a different toy model with one noisy data point. This will show that the Lipschitz continuous network is more robust against outliers than an unconstrained network because its gradient with respect to the input is bounded between -1 and 1. Additionally, it is more robust against adversarial attacks/data corruption for the same reason.&lt;/p>
+&lt;p>&lt;img src="robust_against_noisy_outlier.png" alt="Robust Against Outliers">&lt;/p>
+&lt;h2 id="lipschitz-nns-can-describe-arbitrarily-complex-boundaries">Lipschitz NNs can describe arbitrarily complex boundaries&lt;/h2>
+&lt;p>GroupSort weight-constrained Neural Networks are universal approximators of Lipschitz continuous functions. Furthermore, they can describe arbitrarily complex decision boundaries in classification problems provided the proper objective function is used in training. In &lt;code>Examples\flower.py&lt;/code> we provide code to regress on an example &amp;ldquo;complex&amp;rdquo; decision boundary in 2D.&lt;/p>
+&lt;p>Here are the contour lines of the resulting network (along with the training points in black).&lt;/p>
+&lt;p>&lt;img src="flower.png" alt="Flower">&lt;/p></description></item><item><title>Robust and Provably Monotonic Networks</title><link>https://okitouni.github.io/publication/lipnn/</link><pubDate>Sun, 07 Aug 2022 00:00:00 +0000</pubDate><guid>https://okitouni.github.io/publication/lipnn/</guid><description>&lt;!--
 &lt;div class="alert alert-note">
 &lt;div>
 Click the &lt;em>Slides&lt;/em> button above to demo Academic&amp;rsquo;s Markdown slides feature.
@@ -121,7 +228,34 @@ Slides can be added in a few ways:
 - **Create** slides using Academic's [*Slides*](https://sourcethemes.com/academic/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
 - **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
 - **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://sourcethemes.com/academic/docs/writing-markdown-latex/).
-Further talk details can easily be added to this page using *Markdown* and $\rm \LaTeX$ math code. --></description></item><item><title>Bell Inequality Experiment</title><link>https://okitouni.github.io/random/bell/</link><pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate><guid>https://okitouni.github.io/random/bell/</guid><description/></item><item><title>Controlling Classifier Bias with Moment Decomposition: A Method to Enhance Searches for Resonances</title><link>https://okitouni.github.io/publication/mode/</link><pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate><guid>https://okitouni.github.io/publication/mode/</guid><description>&lt;!--
+Further talk details can easily be added to this page using *Markdown* and $\rm \LaTeX$ math code. --></description></item><item><title>MoDe: Controlling Classifier Bias</title><link>https://okitouni.github.io/project/mode/</link><pubDate>Sat, 07 Aug 2021 00:00:00 +0000</pubDate><guid>https://okitouni.github.io/project/mode/</guid><description>&lt;p>Get the code &lt;a href="https://github.com/okitouni/MoDe/tree/master" target="_blank" rel="noopener">here&lt;/a>.&lt;/p>
+&lt;h1 id="mode">MoDe&lt;/h1>
+&lt;p>Moment Decorrelation (MoDe) is a tool that can enforce decorrelation between some nuisance parameter (or protected attribute in ML fairness lingo) and the response of some model with gradient-based optimization (a neural network for example.) It can force trained models to have the same response across different values of the protected attribute but it can also go beyond simple decorrelation. For example, MoDe can constrain the response function to be linear or quadratic in the protected attribute. This can increase performance tremendously if the independence constraint is not necessary but instead one only cares about the &amp;ldquo;smoothness&amp;rdquo; of the dependence of the response on the protected attribute (which is a weaker constraint).&lt;/p>
+&lt;p>For more details please see our article at &lt;a href="https://arxiv.org/abs/2010.09745" target="_blank" rel="noopener">2010.09745&lt;/a>. (Please use &lt;a href="https://inspirehep.net/literature?sort=mostrecent&amp;amp;size=25&amp;amp;page=1&amp;amp;q=find%20eprint%202010.09745" target="_blank" rel="noopener">INSPIRE-HEP&lt;/a> for citations.)&lt;/p>
+&lt;p>An implementation is available in each of TensorFlow and PyTorch. The notebooks in &lt;a href="examples/">examples/&lt;/a> illustrate how MoDe is used and show how one can obtain different response functions on a toy example and on a W-tagging dataset.&lt;/p>
+&lt;h2 id="installation">Installation&lt;/h2>
+&lt;pre>&lt;code class="language-bash">pip install modeloss
+&lt;/code>&lt;/pre>
+&lt;p>The PyTorch implementation requires PyTorch 1.6.0 or newer.
+The TensorFlow implementation requires TensorFlow 2.2.0 or newer.&lt;/p>
+&lt;h2 id="usage">Usage&lt;/h2>
+&lt;p>For PyTorch:&lt;/p>
+&lt;pre>&lt;code class="language-python">from modeloss.pytorch import MoDeLoss
+flatness_loss = MoDeLoss(order=0)
+loss = lambda pred,target,m,weights: lambd * flatness_loss(pred,target,m,weights)+\
+classification_loss(pred,target,weights)
+&lt;/code>&lt;/pre>
+&lt;p>For TensorFlow, replace &lt;code>modeloss.pytorch&lt;/code> above with &lt;code>modeloss.tf&lt;/code>.&lt;/p>
+&lt;h2 id="example">Example&lt;/h2>
+&lt;p>This is a toy example (located in &lt;a href="examples/ToyExampleTF.ipynb">examples/ToyExampleTF.ipynb&lt;/a>) in which the signal (samples with label 1) is localized near the value 0.2 of the protected attribute &lt;em>m&lt;/em>. While backgrounds (samples with label 0) are uniform in this feature, we note that this bias is introduced into any naive classifer. Indeed, we see that an unconstrained classifier (in the sense that it has no additional fairness regularization) has a large false positive rate for backgrounds near &lt;em>m&lt;/em> = 0.2. Here we show how different MoDe regularizations (MoDe[n]) mitigate this bias by flattening the false positive rate as a function of the protected attribute &lt;em>m&lt;/em> into its n&amp;rsquo;th legendre decomposition (where n is the highest moment allowed; 0 is flat, 1 is linear, etc) .&lt;/p>
+&lt;p>&lt;img src="roc.svg" alt="toy_example">&lt;/p>
+&lt;p>&lt;strong>Left&lt;/strong>: The false positive rate versus mass (&lt;em>m&lt;/em>) for various models at signal efficiencies (or true positive rates (TPR)) ε = 80, 50, 20% (each set of 3 identically colored and stylized lines correspond to the same model but with selection thresholds chosen to achieve the 3 desired TPRs). The bottom panel
+shows that MoDe[1] and MoDe[2] completely overlap with the m-agnostic model for this simple
+example, which is expected because the optimal classifier here has linear dependence on mass (see paper). &lt;strong>Right&lt;/strong>: ROC curves for MoDe[0], MoDe[1], and MoDe[2] compared to the &lt;em>m&lt;/em>-agnostic
+model and a model with unconstrained mass dependence. As in the left panel, we see that &lt;code>MoDe[1]&lt;/code>,
+MoDe[2], and the &lt;em>m&lt;/em>-agnostic ROC curves are nearly identical because the optimal classifier has
+linear mass dependence in this simple example.
+For more details see &lt;a href="https://arxiv.org/pdf/2010.09745.pdf" target="_blank" rel="noopener">2010.09745&lt;/a>.&lt;/p></description></item><item><title>Bell Inequality Experiment</title><link>https://okitouni.github.io/project/bell/</link><pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate><guid>https://okitouni.github.io/project/bell/</guid><description/></item><item><title>Controlling Classifier Bias with Moment Decomposition: A Method to Enhance Searches for Resonances</title><link>https://okitouni.github.io/publication/mode/</link><pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate><guid>https://okitouni.github.io/publication/mode/</guid><description>&lt;!--
 &lt;div class="alert alert-note">
 &lt;div>
 Click the &lt;em>Slides&lt;/em> button above to demo Academic&amp;rsquo;s Markdown slides feature.

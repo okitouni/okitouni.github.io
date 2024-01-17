@@ -40,7 +40,7 @@ Some topics I plan on talking about:
 &lt;li>Scaling Laws and infinite width limits.&lt;/li>
 &lt;li>Topics in Mechanistic Interpretability.&lt;/li>
 &lt;li>Miscellaneous topics in optimization via gradient descent in the Deep Learning setting. This includes topics like the role of normalization, adaptive optimization, implicit/explicit regularization, etc.&lt;/li>
-&lt;/ul></description></item><item><title>Random Animations and Visualizations</title><link>https://okitouni.github.io/post/animations/</link><pubDate>Fri, 18 Nov 2022 00:00:00 +0000</pubDate><guid>https://okitouni.github.io/post/animations/</guid><description>&lt;!-- Change this color later -->
+&lt;/ul></description></item><item><title>Misc. Animations and Visualizations</title><link>https://okitouni.github.io/post/animations/</link><pubDate>Fri, 18 Nov 2022 00:00:00 +0000</pubDate><guid>https://okitouni.github.io/post/animations/</guid><description>&lt;!-- Change this color later -->
 &lt;h2 id="neural-estimation-energy-movers-distance-neemo">Neural Estimation Energy Mover&amp;rsquo;s Distance (NEEMo)&lt;/h2>
 &lt;h3 id="triangle-and-ellipse-fit">Triangle and Ellipse Fit&lt;/h3>
 &lt;p>Fitting the target distribution (green) with an ellipse and a triangle (red) using the NEEMo algorithm.&lt;/p>
