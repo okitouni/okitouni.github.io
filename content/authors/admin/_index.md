@@ -70,8 +70,8 @@ highlight_name: false
 [[wa-ill kitoonee] 🔊](media/pronounce_name.mp3)
 
 <!-- I am a Ph.D. student at MIT in the Institute for AI and Fundamental Interactions (IAIFI). In the past, I worked a lot in research at the interface between machine learning and physics including AI robustness, fairness, and interpretability with applications to physics.  -->
-I am interested in the science of deep learning. Recently, I've been very excited about topics like reasoning, multi-modal foundation models, safe and scalable deep learning.
-During my time at Microsoft Research, I worked on developing a knowledge base generative model towards a knowledge-augmented LLM approach to improving interpretability and limit hallucination.
+I am interested in the science of deep learning. Recently, I've been very excited about topics like reasoning, multi-modal foundation models, and safe and scalable deep learning.
+During my time at Microsoft Research, I worked on developing a knowledge base generative model towards a knowledge-augmented LLM approach to improve interpretability and limit hallucination.
 
 <!---
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.-->
