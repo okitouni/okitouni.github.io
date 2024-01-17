@@ -1,5 +1,5 @@
 ---
-title: Random Animations and Visualizations 
+title: Misc. Animations and Visualizations 
 subtitle: ""
 summary: "A collection of visualization I made in various projects" 
 authors:
