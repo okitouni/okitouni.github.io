@@ -22,7 +22,7 @@ publication_short: ""
 abstract: Entanglement is one of the most fundamental aspects of quantum mechanics. It gives rise to phenomena that cannot be explained classically. In this work, we will demonstrate the non-locality of quantum mechanics through the violation of Bell’s Inequality.
 
 # Summary. An optional shortened abstract.
-summary: "" 
+summary: "An experiment to demonstrate the non-locality of quantum mechanics through the violation of Bell’s Inequality." 
 
 tags:
 - Quantum Mechanics 
@@ -40,15 +40,6 @@ image:
   focal_point: ""
   preview_only: false
 
-# Associated Projects (optional).
-#   Associate this publication with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `internal-project` references `content/project/internal-project/index.md`.
-#   Otherwise, set `projects: []`.
-projects:
-- internal-project
-
-# Slides (optional).
 #   Associate this publication with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
