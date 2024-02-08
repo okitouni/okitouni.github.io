@@ -48,7 +48,7 @@ links:
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: "DiSK architecture on the left and key for the diagram on the right. In this example, the model is tasked to predict the masked value for the 'weight.value' property."
+#   caption: "DiSK architecture on the left and key for the diagram on the right. In this example, the model is tasked to predict the masked value for the 'weight.value' property."
   focal_point: "Center"
   preview_only: false
 
