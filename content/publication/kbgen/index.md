@@ -1,5 +1,5 @@
 ---
-title: "KBFormer: Diffusion over Structured Entities" 
+title: "DiSK: Diffusion Model for Structured Knowledge" 
 authors:
 - admin
 - Niklas Nolte
@@ -19,21 +19,21 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
-publication: "ICLR2024"
+publication: "ICML2024"
 publication_short: ""
 
 abstract: We introduced a generative framework that can process and model diverse data types, from numbers to strings to complex hierarchical properties. This is especially valuable for tasks like filling in missing data in structured databases or tables. Notably, our experiments showcased the model's proficiency in accurately predicting numerical values, which is vital for scientific applications. This approach can be used in Augmented Language Modeling to improve information retrieval and knowledge manipulation. 
 
 # Summary. An optional shortened abstract.
-summary: KBFormer is a generative framework that can handle various data types, from numbers to complex hierarchical types. This model excels in tasks like populating missing data and is especially proficient at predicting numerical values. Its potential extends to augmenting language models for better information retrieval and knowledge manipulation.
+summary: DiSK is a generative framework for structured (dictionary-like) data that can handle various data types, from numbers to complex hierarchical types. This model excels in tasks like populating missing data and is especially proficient at predicting numerical values. Its potential extends to augmenting language models for better information retrieval and knowledge manipulation.
 
 tags:
 - Deep Learning 
 featured: true
 
 links:
-- name: PDF
-  url: '/files/kbgen/kbgen-latest.pdf' 
+- name: ArXiv
+  url: 'https://arxiv.org/abs/2312.05253' 
 # url_code: 'https://github.com/niklasnolte/MonotOneNorm'
 # url_dataset: './featured.jpg'
 # url_poster: 'https://ml4physicalsciences.github.io/2021/files/NeurIPS_ML4PS_2021_86_poster.png'
@@ -48,7 +48,7 @@ links:
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: "KBFormer architecture on the left and key for the diagram on the right. In this example, the model is tasked to predict the masked value for the 'weight.value' property."
+  caption: "DiSK architecture on the left and key for the diagram on the right. In this example, the model is tasked to predict the masked value for the 'weight.value' property."
   focal_point: "Center"
   preview_only: false
 

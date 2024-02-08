@@ -1,5 +1,5 @@
 ---
-title: "Reverse-engineering a Nuclear Physics model"
+title: "Reverse-engineering a Transformer Trained on Nuclear Physics"
 subtitle: "A Scientific Case for Mechanistic Interpretability"
 summary: "A mechanistic interpretability effort that aims to reverse-engineer NuCLR, which accurately predicts nuclear properties and demonstrates an understanding of basic nuclear theory, to potentially derive new insights in nuclear physics."
 authors:
