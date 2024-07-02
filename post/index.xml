@@ -67,6 +67,6 @@ What is more intriguing is that this &amp;ldquo;perfect&amp;rdquo; representatio
 &lt;h2 id="simple-grokking">Simple Grokking&lt;/h2>
 &lt;p>If you&amp;rsquo;re interested in playing around with Grokking, I made a very simple implementation that shows a clear delay in generalization. The task is modular addition. The model is a simple 2-layer MLP that takes in two learnable embeddings of dimension hidden_dim=128 concatenated together. Each embedding represents an integer and the target is their sum modulo 53.
 The code can be found here: &lt;a href="https://github.com/okitouni/simple-grokking" target="_blank" rel="noopener">https://github.com/okitouni/simple-grokking&lt;/a>
-&lt;img src="metrics_grokking.jpg" alt="metrics_grokking">
+&lt;img alt="metrics_grokking" src="https://okitouni.github.io/post/grokking-thoughts/metrics_grokking.jpg">
 To undo Grokking (i.e. generalize earlier) we can simply increase the amount of weight decay used (from 0.03 to 5) and get the following results:
-&lt;img src="metrics_comprehension.jpg" alt="metrics_comprehension">&lt;/p></description></item></channel></rss>
+&lt;img alt="metrics_comprehension" src="https://okitouni.github.io/post/grokking-thoughts/metrics_comprehension.jpg">&lt;/p></description></item></channel></rss>

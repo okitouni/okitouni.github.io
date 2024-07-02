@@ -31,16 +31,16 @@
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td>&lt;code>pip install monotonicnetworks&lt;/code>&lt;br> &lt;center>&lt;a href="https://badge.fury.io/py/monotonicnetworks" target="_blank" rel="noopener">&lt;img src="https://badge.fury.io/py/monotonicnetworks.svg" alt="PyPI version">&lt;/a>&lt;/center>&lt;/td>
-&lt;td>&lt;code>conda install -c conda-forge monotonicnetworks&lt;/code>&lt;br> &lt;center>&lt;img src="https://img.shields.io/conda/dn/conda-forge/monotonicnetworks" alt="Conda">&lt;/td>
+&lt;td>&lt;code>pip install monotonicnetworks&lt;/code>&lt;br> &lt;center>&lt;a href="https://badge.fury.io/py/monotonicnetworks" target="_blank" rel="noopener">&lt;img alt="PyPI version" src="https://badge.fury.io/py/monotonicnetworks.svg">&lt;/a>&lt;/center>&lt;/td>
+&lt;td>&lt;code>conda install -c conda-forge monotonicnetworks&lt;/code>&lt;br> &lt;center>&lt;img alt="Conda" src="https://img.shields.io/conda/dn/conda-forge/monotonicnetworks">&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
 &lt;/center>
 &lt;/div>
 &lt;p>Note that the package used to be called &lt;code>monotonenorm&lt;/code> and was renamed to &lt;code>monotonicnetworks&lt;/code> on 2023-07-15. The old package is still available on PyPI and conda-forge, but will not be updated.&lt;/p>
-&lt;p>&lt;a href="https://badge.fury.io/py/monotonenorm" target="_blank" rel="noopener">&lt;img src="https://badge.fury.io/py/monotonenorm.svg" alt="PyPI version">&lt;/a> (deprecated) &lt;code>pip install monotonenorm&lt;/code>&lt;/p>
-&lt;p>&lt;a href="https://anaconda.org/okitouni/monotonenorm" target="_blank" rel="noopener">&lt;img src="https://img.shields.io/conda/v/okitouni/monotonenorm" alt="Latest conda-forge version">&lt;/a> (deprecated) &lt;code>conda install -c okitouni monotonenorm&lt;/code>&lt;/p>
+&lt;p>&lt;a href="https://badge.fury.io/py/monotonenorm" target="_blank" rel="noopener">&lt;img alt="PyPI version" src="https://badge.fury.io/py/monotonenorm.svg">&lt;/a> (deprecated) &lt;code>pip install monotonenorm&lt;/code>&lt;/p>
+&lt;p>&lt;a href="https://anaconda.org/okitouni/monotonenorm" target="_blank" rel="noopener">&lt;img alt="Latest conda-forge version" src="https://img.shields.io/conda/v/okitouni/monotonenorm">&lt;/a> (deprecated) &lt;code>conda install -c okitouni monotonenorm&lt;/code>&lt;/p>
 &lt;h1 id="requirements">Requirements&lt;/h1>
 &lt;p>Make sure you have the following packages installed:&lt;/p>
 &lt;ul>
@@ -98,14 +98,14 @@ $$f(x) = log(x) + \epsilon(x)$$
 where $\epsilon(x)$ is a Gaussian noise term whose variance is linearly increasing in x.
 In this toy model, we will assume that we have good reason to believe that the function we are trying to fit is monotonic (despite non-monotnic behavior of the noise). For example, we are building a trigger algorithm to discriminate between signal and background events. Rarer events are more likely to be signal and thus we should employ a network that is monotonic in some &amp;ldquo;rareness&amp;rdquo; feature. Another example could be a hiring classifier where (all else equal) higher school grades should imply better chances of being hired.&lt;/p>
 &lt;p>Training a monotonic NN and an unconstrained NN on the purple points and evaluating the networks on a uniform grid gives the following result:&lt;/p>
-&lt;p>&lt;img src="monotonic_dependence_unobserved_UpFalse_InterpFalse.png" alt="Monotonic Dependence">&lt;/p>
+&lt;p>&lt;img alt="Monotonic Dependence" src="https://okitouni.github.io/project/monotonic/monotonic_dependence_unobserved_UpFalse_InterpFalse.png">&lt;/p>
 &lt;h2 id="robustness">Robustness&lt;/h2>
 &lt;p>Now we will make a different toy model with one noisy data point. This will show that the Lipschitz continuous network is more robust against outliers than an unconstrained network because its gradient with respect to the input is bounded between -1 and 1. Additionally, it is more robust against adversarial attacks/data corruption for the same reason.&lt;/p>
-&lt;p>&lt;img src="robust_against_noisy_outlier.png" alt="Robust Against Outliers">&lt;/p>
+&lt;p>&lt;img alt="Robust Against Outliers" src="https://okitouni.github.io/project/monotonic/robust_against_noisy_outlier.png">&lt;/p>
 &lt;h2 id="lipschitz-nns-can-describe-arbitrarily-complex-boundaries">Lipschitz NNs can describe arbitrarily complex boundaries&lt;/h2>
 &lt;p>GroupSort weight-constrained Neural Networks are universal approximators of Lipschitz continuous functions. Furthermore, they can describe arbitrarily complex decision boundaries in classification problems provided the proper objective function is used in training. In &lt;code>Examples\flower.py&lt;/code> we provide code to regress on an example &amp;ldquo;complex&amp;rdquo; decision boundary in 2D.&lt;/p>
 &lt;p>Here are the contour lines of the resulting network (along with the training points in black).&lt;/p>
-&lt;p>&lt;img src="flower.png" alt="Flower">&lt;/p></description></item><item><title>MoDe: Controlling Classifier Bias</title><link>https://okitouni.github.io/project/mode/</link><pubDate>Sat, 07 Aug 2021 00:00:00 +0000</pubDate><guid>https://okitouni.github.io/project/mode/</guid><description>&lt;p>Get the code &lt;a href="https://github.com/okitouni/MoDe/tree/master" target="_blank" rel="noopener">here&lt;/a>.&lt;/p>
+&lt;p>&lt;img alt="Flower" src="https://okitouni.github.io/project/monotonic/flower.png">&lt;/p></description></item><item><title>MoDe: Controlling Classifier Bias</title><link>https://okitouni.github.io/project/mode/</link><pubDate>Sat, 07 Aug 2021 00:00:00 +0000</pubDate><guid>https://okitouni.github.io/project/mode/</guid><description>&lt;p>Get the code &lt;a href="https://github.com/okitouni/MoDe/tree/master" target="_blank" rel="noopener">here&lt;/a>.&lt;/p>
 &lt;h1 id="mode">MoDe&lt;/h1>
 &lt;p>Moment Decorrelation (MoDe) is a tool that can enforce decorrelation between some nuisance parameter (or protected attribute in ML fairness lingo) and the response of some model with gradient-based optimization (a neural network for example.) It can force trained models to have the same response across different values of the protected attribute but it can also go beyond simple decorrelation. For example, MoDe can constrain the response function to be linear or quadratic in the protected attribute. This can increase performance tremendously if the independence constraint is not necessary but instead one only cares about the &amp;ldquo;smoothness&amp;rdquo; of the dependence of the response on the protected attribute (which is a weaker constraint).&lt;/p>
 &lt;p>For more details please see our article at &lt;a href="https://arxiv.org/abs/2010.09745" target="_blank" rel="noopener">2010.09745&lt;/a>. (Please use &lt;a href="https://inspirehep.net/literature?sort=mostrecent&amp;amp;size=25&amp;amp;page=1&amp;amp;q=find%20eprint%202010.09745" target="_blank" rel="noopener">INSPIRE-HEP&lt;/a> for citations.)&lt;/p>
@@ -125,7 +125,7 @@ classification_loss(pred,target,weights)
 &lt;p>For TensorFlow, replace &lt;code>modeloss.pytorch&lt;/code> above with &lt;code>modeloss.tf&lt;/code>.&lt;/p>
 &lt;h2 id="example">Example&lt;/h2>
 &lt;p>This is a toy example (located in &lt;a href="examples/ToyExampleTF.ipynb">examples/ToyExampleTF.ipynb&lt;/a>) in which the signal (samples with label 1) is localized near the value 0.2 of the protected attribute &lt;em>m&lt;/em>. While backgrounds (samples with label 0) are uniform in this feature, we note that this bias is introduced into any naive classifer. Indeed, we see that an unconstrained classifier (in the sense that it has no additional fairness regularization) has a large false positive rate for backgrounds near &lt;em>m&lt;/em> = 0.2. Here we show how different MoDe regularizations (MoDe[n]) mitigate this bias by flattening the false positive rate as a function of the protected attribute &lt;em>m&lt;/em> into its n&amp;rsquo;th legendre decomposition (where n is the highest moment allowed; 0 is flat, 1 is linear, etc) .&lt;/p>
-&lt;p>&lt;img src="roc.svg" alt="toy_example">&lt;/p>
+&lt;p>&lt;img alt="toy_example" src="https://okitouni.github.io/project/mode/roc.svg">&lt;/p>
 &lt;p>&lt;strong>Left&lt;/strong>: The false positive rate versus mass (&lt;em>m&lt;/em>) for various models at signal efficiencies (or true positive rates (TPR)) ε = 80, 50, 20% (each set of 3 identically colored and stylized lines correspond to the same model but with selection thresholds chosen to achieve the 3 desired TPRs). The bottom panel
 shows that MoDe[1] and MoDe[2] completely overlap with the m-agnostic model for this simple
 example, which is expected because the optimal classifier here has linear dependence on mass (see paper). &lt;strong>Right&lt;/strong>: ROC curves for MoDe[0], MoDe[1], and MoDe[2] compared to the &lt;em>m&lt;/em>-agnostic
